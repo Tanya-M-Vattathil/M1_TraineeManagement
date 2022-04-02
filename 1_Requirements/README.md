@@ -22,5 +22,17 @@ How : returns output as per the users requirements.
     * the code quality should be improved for smooth working.
 
 ### Low level requirements
+|Low level requirements| Description|
+|---|----|
+|LLR1|Display Menu|
+|LLR2|Enter Parameters|
+|LLR3|Display Output|
 
 ### High level requirements
+|High level requirements| Description|
+|---|----|
+|HLR1|Login to sysytem|
+|HLR2|Add Trainee|
+|HLR3|Search Trainee|
+|HLR4|View Trainee|
+|HLR5|Delete Trainee|
