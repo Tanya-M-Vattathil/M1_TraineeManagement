@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 
-//Align the message
+//Align the message to show in the center if the screen or according to the progeammers choice
 void printMessageCenter(const char* message)
 {
     int l =0;
