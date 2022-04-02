@@ -2,7 +2,7 @@
 #define VALIDITY_H
 #include <string.h>
 
-//Validate Name
+//function to Validate Name
 int isNameValid(const char *Name)
 {
     int validName = 1;
@@ -18,7 +18,7 @@ int isNameValid(const char *Name)
     return validName;
 }
 // Function to check leap year.
-//Function returns 1 if leap year
+//Function returns 1 if entered value is leap year
 int  isLeap(int yr)
 {
     return (((yr % 4 == 0) &&
@@ -36,7 +36,7 @@ int isValidDate(struct Date *validDate)
         return 0;
     if (validDate->dd < 1 || validDate->dd > 31)
         return 0;
-    //Handle feb days in leap year
+    //these will handle february dates when the year is leap year
     if (validDate->mm == 02)
     {
         if (isLeap(validDate->yyyy))
@@ -44,7 +44,7 @@ int isValidDate(struct Date *validDate)
         else
             return (validDate->dd <= 28);
     }
-    //handle months which has only 30 days
+    //these handles months which have only 30 days
     if (validDate->mm == 4 || validDate->mm == 6 ||
             validDate->mm == 9 || validDate->mm == 11)
         return (validDate->dd <= 30);
