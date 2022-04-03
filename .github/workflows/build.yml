@@ -14,6 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: build
-      run: gcc main.c trainee.c -o output.exe
+      run: gcc main.c 1_trainee.c 2_trainee.c -o output.exe
     - name: Run
       run: ./output.exe
