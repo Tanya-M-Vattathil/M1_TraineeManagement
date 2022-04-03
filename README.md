@@ -1,3 +1,9 @@
 # M1_TraineeRecordManagement
 
-This project is designed to perform basic record managing operations, such as adding trainee information, viewing the added trainee, searching the trainee from the updated file, and so on.
+### The goal of this project is to 
+* Make the process of keeping track of the Company's trainees easier by eliminating the need for manual record keeping.
+* Create a  database for storing information on trainees.
+* Provide complete functional reports to the company's management.
+* The objectives of this work is to create a detailed solution to trainee information management.
+* Login page secured with a password.
+* It's simple to add, delete, search through and view records.
