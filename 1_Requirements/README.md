@@ -1,6 +1,7 @@
 # Requirements
 
-### Trainee records managing system
+## Trainee records managing system
+### 4'Ws and 1'H
 What : Record management program.
 Where : In indusries, corporate offices, schools, colleges etc.
 When : When new trainees are to be added, present trainees are to be viewed etc.
@@ -25,14 +26,18 @@ How : returns output as per the users requirements.
 |Low level requirements| Description|
 |---|----|
 |LLR1|Display Menu|
-|LLR2|Enter Parameters|
-|LLR3|Display Output|
+|LLR2|Add Trainee|
+|LLR3|Search Trainee|
+|LLR4|View Trainee|
+|LLR5|Delete Trainee|
+|LLR|Display Output|
 
 ### High level requirements
 |High level requirements| Description|
 |---|----|
-|HLR1|Login to sysytem|
-|HLR2|Add Trainee|
-|HLR3|Search Trainee|
-|HLR4|View Trainee|
-|HLR5|Delete Trainee|
+|HLR1|Login to system|
+|HLR2|Choose action from menu|
+|HLR3|System should store added information|
+|HLR4|Delete the given stored information|
+|HLR5|Option to modify username and password|
+|HLR6|Option to exit the system|
